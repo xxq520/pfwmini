@@ -1,0 +1,82 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"appid": "wx9677e0cbfa3a01f6",
+	"projectname": "pfwMinprogram",
+	"libVersion": "2.9.5",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "pages/pay/index",
+					"pathName": "pages/pay/index",
+					"query": "timeStamp=1596533639&package=\"prepay_id%3Dwx04173359493198a1b3c387ad1394581200\"&paySign=\"EgyKgj6VGiK0CV6bqy7xw59uf6KZSZvp8xmvSJxZ%2FmZcU65LL1L88%2FopONRYqyJOt32vJBgTt5WV94ilT1aQ7VlBNOUaEGAxbZCM1cEvuM%2BMTIByVhlTC2QyPqApBvVUdp%2BKBGUHkztbf4X8Ua%2FpnCTzJOI28QdVdqSt5vyP%2FL0iAvLxuftztLh5%2BOpqH32%2F0DjfpB5rAyKr1cyztN%2FRpfXQf5ucDh0KMZIdi5rDsgkJNkvO7JvbEdizRn6g9%2Bt2gpmKoD9I4PfAC0Qe007IeLQlPYK2oFLXl%2BZPDiHlFeXdUDvgZhJ9ccw9xQhwbdrNWlgR2d2X4a89fTdneo28Gg%3D%3D\"&signType=\"RSA\"&nonceStr=\"34ee615a84764c2e926f8eb385b379f0\"",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/pay/index",
+					"pathName": "pages/pay/index",
+					"query": "totalOrderNo=Q12908975148914483200011&useBalance=0",
+					"scene": null
+				}
+			]
+		}
+	}
+}

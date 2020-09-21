@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <!-- <view class="userinfo">
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
+  </view> -->
+   <view class="uploader">
+    <view class="uploader-text">
+       <button open-type="launchApp" app-parameter="wechat" binderror="launchAppError">返回到APP</button>
+    </view>
+  </view>
+
+</view>
